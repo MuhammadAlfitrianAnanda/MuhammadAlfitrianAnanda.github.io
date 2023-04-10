@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan</title>
+    <link rel="stylesheet" href="css/stylecrudutama.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="">
+        <h1>Pesan Produk/Jasa</h1>
+        <label for="name">Nama Pelanggan</label><br>
+        <input class="box1" type="text" name="name" id="name" placeholder="Masukkan nama" required><br>
+        <label for="destinasi">Produk/Jasa</label><br>
+        <select class="box1" name="jenisWahana" id="jenisWahana" required>
+            <option value="">Pilih jenis layanan</option>
+				<option value="website">Pembuatan Website</option>
+                <option value="produk">Pembuatan alat sederhana</option>
+        </select>
+        <br>
+        <label for="destinasi">Template</label><br>
+        <select class="box1" name="jenisWahana" id="jenisWahana" required>
+            <option value="">Pilih Template</option>
+				<option value="website">Project-1</option>
+                <option value="produk">Project-2</option>
+                <option value="website">Project-3</option>
+                <option value="website">Project-4</option>
+                <option value="website">Project-5</option>
+                <option value="website">Project-6</option>
+                <option value="website">Customize</option>
+        </select>
+        <br>
+        <label for="tanggalPesan">Tanggal Pemesanan</label><br>
+        <div class="div1">
+            <input class="box1" type="date" name="tanggalPesan" id="tanggalPesan" required><br>
+        </div>
+        <div class="tombol">
+         <br>
+      <a href="crud.html" > <button class="btn" type="button">Submit</button></a>
+       <button class="btn" type="reset">Reset</button>
+      <a href="homepage.html">    <button class="btn" type="button">Close</button></a>
+   </div> </form>
+</body>
+</html>

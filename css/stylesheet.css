@@ -1,0 +1,136 @@
+@import url('https//:fonts.googleapis.com/css2?family=Nunito+Sans:wght0248/display=swap');
+
+:root {
+    --font-style: 'Nunito Sans', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: var(--font-style);
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, #333399, #ff00cc);
+    box-shadow: 0 15px 25px #333399;
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+
+}
+
+.login-box .user-box input {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -85px;
+    left: 0;
+    color: #ff00cc;
+    font-size: 12px;
+}
+
+.rem {
+    color: #fff;
+}
+
+.button-check {
+    left: 0;
+    position: relative;
+    width: 100%;
+}
+
+#submit {
+    background: linear-gradient(to right, #333399, #ff00cc);
+   
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid #fff;
+
+}
+
+#submit:hover {
+    background: linear-gradient(to right, #ff00cc, #333399);
+    border: 1px solid #333399;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 5px #333399, 0 0 25px#333399, 0 0 50px #333399, 0 0 100px #333399;
+}
+
+.button-form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.button-form a {
+  
+    margin: 5px 5px;
+}
+
+#register {
+    font-size: 16px;
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+    width: 60%;
+    text-align: center;
+}
+
+#register a {
+    margin: auto;
+    color: #333399;
+    text-decoration: none;
+}
